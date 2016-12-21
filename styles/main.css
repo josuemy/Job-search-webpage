@@ -1,0 +1,48 @@
+    nav {
+        position: fixed;
+        background-color: rgb(185, 185, 185);
+        height: 50px;
+        width: 100%;
+    }
+
+    nav p {
+        display: inline-block;
+        font-size: 120%;
+    }
+
+    nav ul {
+        position: absolute;
+        list-style: none;
+        display: inline-block;
+        right: 15px;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 120%;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    nav a:link {
+        color: purple;
+        text-decoration: none;
+    }
+
+    main>div {
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+
+    input {
+        width: 400px;
+        border: 1px solid rgb(185, 185, 185);
+        border-radius: 3px;
+    }
+
+    .magnifying-glass {
+        vertical-align: bottom;
+        width: 20px;
+        border: 1px solid rgb(185, 185, 185);
+        border-radius: 3px;
+    }
