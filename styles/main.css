@@ -9,6 +9,9 @@
 .top-nav p {
     display: inline-block;
     font-size: 120%;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 0px;
 }
 
 .top-nav ul {
@@ -16,12 +19,15 @@
     list-style: none;
     display: inline-block;
     right: 15px;
+    margin: 0px;
 }
 
 .top-nav li {
     display: inline-block;
     font-size: 120%;
     margin-right: 5px;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
 .top-nav a {
@@ -39,6 +45,11 @@ input {
     height: 30px;
     border: 1px solid rgb(185, 185, 185);
     border-radius: 3px;
+}
+
+::-webkit-input-placeholder {
+    font-weight: bold;
+    color: rgb(158, 158, 158);
 }
 
 .magnifying-glass {
@@ -83,9 +94,25 @@ input {
 
 .two {
     width: 210px;
-    border-right: 1px solid rgb(185, 185, 185)
+    border-right: 1px solid rgb(185, 185, 185);
 }
 
 .three {
     width: 70px;
+}
+
+.positions {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.positions p {
+    color: rgb(158, 158, 158);
+}
+
+.positions span {
+    color: blue;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
 }
