@@ -1,6 +1,10 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 .top-nav {
     position: fixed;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(217, 217, 217);
     height: 50px;
     width: 100%;
     /*margin-bottom: 100px; why it doesn't change anything*/
@@ -11,6 +15,7 @@
     font-size: 120%;
     vertical-align: middle;
     line-height: 50px;
+    padding-left: 11px;
     margin: 0px;
 }
 
@@ -110,9 +115,21 @@ input {
     color: rgb(158, 158, 158);
 }
 
-.positions span {
+.positions a {
     color: blue;
     font-weight: bold;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.positions a:hover {
+    color: red;
 }
